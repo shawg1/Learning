@@ -12,6 +12,5 @@
 next:1. swift
      2. search
      3. iosApp-demo
-
 file:1. data-structure/sort.cpp
      2. swift/swift-01.md
