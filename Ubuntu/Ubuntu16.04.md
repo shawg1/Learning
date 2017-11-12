@@ -14,6 +14,26 @@ n latest#安装最新的nodejs
 n stable#安装稳定版->推荐这一个
 #搜狗拼音自己去官网刚下载安装后要先重启
 ```
+####github的ssh秘钥配置
+```
+git config --global user.name "your name"
+git config --global user.email "your email"
+#填写你的github账号信息
+git config --lis
+#查看是否配置成功
+cd ~/.ssh
+#如果有东西则删除
+ssh-keygen -t rsa -C "your email"#就是上面那个email
+#全部回车到结束
+cd .ssh
+ll
+#看到几个文件
+cat  id_rsa.pub
+#复制显示的内容
+#到你的github上去,进入setting,左侧ssh配置,new一个,把刚刚那个粘贴进去
+#之后git就不要用http方式了
+```
+
 ####laravel环境配置
 本地服务配置
 ```
