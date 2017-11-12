@@ -1,8 +1,8 @@
 # Learning
 
->date && id\n
->contents\n
->the next\n
+>date && id<br>
+>contents<br>
+>the next<br>
 >file path
 
 <h4>2017-11-12 Wuuuuu</h4>
